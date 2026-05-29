@@ -23,7 +23,7 @@ import { RouterLink } from 'vue-router';
                     <RouterLink to="/Services" class="hover:text-yellow-300">Services</RouterLink><br>
                 </li>
                 <li>
-                    <RouterLink to="/Contact" class="hover:text-yellow-300">Contact</RouterLink><br>s
+                    <RouterLink to="/Contact" class="hover:text-yellow-300">Contact</RouterLink><br>
                 </li>
 
             </ul>
