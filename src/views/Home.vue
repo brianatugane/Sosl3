@@ -2,7 +2,7 @@
   <!-- Home Section -->
   <section
     class="relative min-h-screen bg-cover bg-center flex items-center justify-center text-white"
-    style="background-image: url('/src/assets/b.png')"
+    :style="{ backgroundImage: `url(${heroImage})` }"
   >
     <!-- Dark Overlay -->
     <div class="absolute inset-0 bg-black/70"></div>
@@ -88,3 +88,7 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import heroImage from '../assets/b.png'
+</script>
