@@ -13,7 +13,7 @@ const destinationOpen = ref(false)
 
       <ul class="flex gap-6 text-lg">
         <li>
-          <a href="/home" class="hover:text-yellow-300">
+          <a href="/" class="hover:text-yellow-300">
             Home
           </a>
         </li>
