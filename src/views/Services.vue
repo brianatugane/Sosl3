@@ -4,7 +4,7 @@
     <!-- Services -->
     <section class="py-16 px-8 ">
       <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
-        Our Services
+        {{ $i18n.t('services.title') }}
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8">
@@ -13,10 +13,10 @@
           <img src="/src/assets/gorilla.jpg" class="h-56 w-full object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              🦍 Gorilla Trekking
+              {{ $i18n.t('services.gorillaTitle') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Meet Rwanda's famous mountain gorillas.
+              {{ $i18n.t('services.gorillaDesc') }}
             </p>
           </div>
         </div>
@@ -25,10 +25,10 @@
           <img src="/src/assets/kivu.jpg" class="h-56 w-full object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              🌊 Lake Kivu Tours
+              {{ $i18n.t('services.lakeTitle') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Boat rides and beautiful beaches.
+              {{ $i18n.t('services.lakeDesc') }}
             </p>
           </div>
         </div>
@@ -37,10 +37,10 @@
           <img src="/src/assets/akagera.jpg" class="h-56 w-full object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              🦁 Safari Adventures
+              {{ $i18n.t('services.safariTitle') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Explore Akagera National Park.
+              {{ $i18n.t('services.safariDesc') }}
             </p>
           </div>
         </div>
@@ -49,10 +49,10 @@
           <img src="/src/assets/culture.jpg" class="h-56 w-full object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              🎭 Cultural Tours
+              {{ $i18n.t('services.cultureTitle') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Learn Rwanda's traditions and history.
+              {{ $i18n.t('services.cultureDesc') }}
             </p>
           </div>
         </div>
@@ -61,10 +61,10 @@
           <img src="/src/assets/hiking.jpg" class="h-56 w-full object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              ⛰️ Hiking Trips
+              {{ $i18n.t('services.hikingTitle') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Explore Rwanda's beautiful mountains.
+              {{ $i18n.t('services.hikingDesc') }}
             </p>
           </div>
         </div>
@@ -73,10 +73,10 @@
           <img src="/src/assets/city.jpg" class="h-56 w-full object-cover">
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              🏙️ Kigali City Tours
+              {{ $i18n.t('services.kigaliTitle') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Discover modern Kigali and its attractions.
+              {{ $i18n.t('services.kigaliDesc') }}
             </p>
           </div>
         </div>
@@ -89,22 +89,22 @@
       <div class="grid md:grid-cols-4 text-center gap-8">
         <div>
           <h2 class="text-5xl font-bold">100+</h2>
-          <p>Tours Completed</p>
+          <p>{{ $i18n.t('services.toursCompleted') }}</p>
         </div>
 
         <div>
           <h2 class="text-5xl font-bold">500+</h2>
-          <p>Happy Visitors</p>
+          <p>{{ $i18n.t('services.happyVisitors') }}</p>
         </div>
 
         <div>
           <h2 class="text-5xl font-bold">30+</h2>
-          <p>Tour Guides</p>
+          <p>{{ $i18n.t('services.years') }}</p>
         </div>
 
         <div>
           <h2 class="text-5xl font-bold">10+</h2>
-          <p>Destinations</p>
+          <p>{{ $i18n.t('services.locations') }}</p>
         </div>
       </div>
     </section>

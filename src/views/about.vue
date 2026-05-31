@@ -11,23 +11,21 @@
         <div>
 
           <p class="uppercase tracking-[5px] text-green-600 font-semibold mb-3">
-            Discover Rwanda
+            {{ $i18n.t('about.subtitle') }}
           </p>
 
           <h1 class="text-5xl md:text-7xl font-extrabold text-green-800 leading-tight mb-6">
-            About Rwanda
+            {{ $i18n.t('about.title') }}
           </h1>
 
           <div class="w-32 h-1 bg-green-600 rounded-full mb-8"></div>
 
           <p class="text-lg md:text-xl leading-9 text-gray-700 mb-8">
-            Rwanda is known as the
+            {{ $i18n.t('about.mainText') }}
             <span class="font-bold text-green-700">
-              Land of a Thousand Hills
+              {{ $i18n.t('about.mainTextBold') }}
             </span>.
-            It is one of Africa’s cleanest and fastest-growing countries,
-            famous for mountain gorillas, beautiful landscapes,
-            strong culture, peace, and hospitality.
+            {{ $i18n.t('about.description') }}
           </p>
 
           <!-- Stats -->
@@ -38,7 +36,7 @@
                 1000+
               </h2>
               <p class="text-gray-600">
-                Beautiful Hills
+                {{ $i18n.t('about.hills') }}
               </p>
             </div>
 
@@ -47,7 +45,7 @@
                 4
               </h2>
               <p class="text-gray-600">
-                National Parks
+                {{ $i18n.t('about.nationalParks') }}
               </p>
             </div>
 
@@ -78,11 +76,11 @@
             class="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-2xl w-60 border border-green-100"
           >
             <h2 class="text-2xl font-bold text-green-700 mb-2">
-              Kigali City
+              {{ $i18n.t('about.kigaliTitle') }}
             </h2>
 
             <p class="text-gray-600 text-sm">
-              One of Africa’s cleanest and smartest cities with modern innovation.
+              {{ $i18n.t('about.kigaliDesc') }}
             </p>
           </div>
 

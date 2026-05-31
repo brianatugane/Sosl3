@@ -12,19 +12,17 @@
 
       <!-- Small Text -->
       <p class="uppercase tracking-[6px] text-green-300 mb-4 font-semibold">
-        Visit Rwanda
+        {{ $i18n.t('home.subtitle') }}
       </p>
 
       <!-- Heading -->
       <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
-        Welcome to <span class="text-green-400">Rwanda</span>
+        {{ $i18n.t('home.welcome') }} <span class="text-green-400">{{ $i18n.t('home.rwanda') }}</span>
       </h1>
 
       <!-- Paragraph -->
       <p class="text-lg md:text-2xl text-gray-200 max-w-3xl mx-auto mb-10">
-        Discover the beauty of Rwanda, the land of a thousand hills,
-        rich culture, mountain gorillas, beautiful lakes,
-        and unforgettable adventures.
+        {{ $i18n.t('home.description') }}
       </p>
 
       <!-- Buttons -->
@@ -32,13 +30,13 @@
         <button
           class="bg-green-500 hover:bg-green-600 px-8 py-3 rounded-full font-semibold transition duration-300 shadow-lg"
         >
-          Explore
+          {{ $i18n.t('home.explore') }}
         </button>
 
         <button
           class="border border-white hover:bg-white hover:text-black px-8 py-3 rounded-full font-semibold transition duration-300"
         >
-          Learn More
+          {{ $i18n.t('home.learnMore') }}
         </button>
       </div>
 
@@ -51,10 +49,10 @@
         >
           <div class="text-4xl mb-4">🦍</div>
           <h2 class="text-2xl font-bold mb-3 text-green-300">
-            Wildlife
+            {{ $i18n.t('home.wildlifeTitle') }}
           </h2>
           <p class="text-gray-200">
-            Visit Volcanoes National Park and experience the famous mountain gorillas.
+            {{ $i18n.t('home.wildlifeDesc') }}
           </p>
         </div>
 
@@ -64,10 +62,10 @@
         >
           <div class="text-4xl mb-4">🏞️</div>
           <h2 class="text-2xl font-bold mb-3 text-green-300">
-            Nature
+            {{ $i18n.t('home.natureTitle') }}
           </h2>
           <p class="text-gray-200">
-            Explore breathtaking hills, lakes, forests, and Rwanda’s natural beauty.
+            {{ $i18n.t('home.natureDesc') }}
           </p>
         </div>
 
@@ -77,10 +75,10 @@
         >
           <div class="text-4xl mb-4">🎭</div>
           <h2 class="text-2xl font-bold mb-3 text-green-300">
-            Culture
+            {{ $i18n.t('home.cultureTitle') }}
           </h2>
           <p class="text-gray-200">
-            Discover traditional dances, local food, and Rwanda’s rich heritage.
+            {{ $i18n.t('home.cultureDesc') }}
           </p>
         </div>
 

@@ -1,7 +1,7 @@
 <template>
   <section class="py-16 px-8">
       <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
-        Contact Us
+        {{ $i18n.t('contact.title') }}
       </h2>
 
     <!-- Contact Section -->
@@ -12,45 +12,44 @@
         <!-- Contact Information -->
         <div>
           <h2 class="text-4xl font-bold text-green-700 mb-8">
-            Get In Touch
+            {{ $i18n.t('contact.getInTouch') }}
           </h2>
 
           <div class="space-y-6">
 
             <div class="bg-green-50 p-5 rounded-2xl shadow">
               <h3 class="text-xl font-bold text-green-700">
-                📍 Location
+                {{ $i18n.t('contact.location') }}
               </h3>
               <p class="text-gray-600 mt-2">
-                Kigali, Rwanda
+                {{ $i18n.t('contact.locationValue') }}
               </p>
             </div>
 
             <div class="bg-green-50 p-5 rounded-2xl shadow">
               <h3 class="text-xl font-bold text-green-700">
-                📞 Phone
+                {{ $i18n.t('contact.phone') }}
               </h3>
               <p class="text-gray-600 mt-2">
-                +250 7XX XXX XXX
+                {{ $i18n.t('contact.phoneValue') }}
               </p>
             </div>
 
             <div class="bg-green-50 p-5 rounded-2xl shadow">
               <h3 class="text-xl font-bold text-green-700">
-                ✉️ Email
+                {{ $i18n.t('contact.email') }}
               </h3>
               <p class="text-gray-600 mt-2">
-                info@temberaurwanda.com
+                {{ $i18n.t('contact.emailValue') }}
               </p>
             </div>
 
             <div class="bg-green-50 p-5 rounded-2xl shadow">
               <h3 class="text-xl font-bold text-green-700">
-                🕒 Working Hours
+                {{ $i18n.t('contact.hours') }}
               </h3>
               <p class="text-gray-600 mt-2">
-                Monday - Saturday<br>
-                8:00 AM - 6:00 PM
+                {{ $i18n.t('contact.hoursValue') }}
               </p>
             </div>
 
@@ -61,51 +60,51 @@
         <div class="bg-white shadow-2xl rounded-3xl p-8">
 
           <h2 class="text-3xl font-bold text-green-700 mb-6">
-            Send a Message
+            {{ $i18n.t('contact.sendMessage') }}
           </h2>
 
           <form class="space-y-5">
 
             <div>
               <label class="block text-gray-700 font-semibold mb-2">
-                Full Name
+                {{ $i18n.t('contact.fullName') }}
               </label>
               <input
                 type="text"
-                placeholder="Enter your name"
+                :placeholder="$i18n.t('contact.fullNamePlaceholder')"
                 class="w-full border rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-green-500"
               >
             </div>
 
             <div>
               <label class="block text-gray-700 font-semibold mb-2">
-                Email Address
+                {{ $i18n.t('contact.emailAddress') }}
               </label>
               <input
                 type="email"
-                placeholder="Enter your email"
+                :placeholder="$i18n.t('contact.emailPlaceholder')"
                 class="w-full border rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-green-500"
               >
             </div>
 
             <div>
               <label class="block text-gray-700 font-semibold mb-2">
-                Subject
+                {{ $i18n.t('contact.subject') }}
               </label>
               <input
                 type="text"
-                placeholder="Subject"
+                :placeholder="$i18n.t('contact.subjectPlaceholder')"
                 class="w-full border rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-green-500"
               >
             </div>
 
             <div>
               <label class="block text-gray-700 font-semibold mb-2">
-                Message
+                {{ $i18n.t('contact.message') }}
               </label>
               <textarea
                 rows="5"
-                placeholder="Write your message..."
+                :placeholder="$i18n.t('contact.messagePlaceholder')"
                 class="w-full border rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-green-500"
               ></textarea>
             </div>
@@ -114,7 +113,7 @@
               type="submit"
               class="w-full bg-green-600 text-white py-4 rounded-xl font-bold hover:bg-green-700 transition"
             >
-              Send Message
+              {{ $i18n.t('contact.send') }}
             </button>
 
           </form>
