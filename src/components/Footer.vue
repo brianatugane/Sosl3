@@ -14,7 +14,7 @@ import { RouterLink } from 'vue-router';
             <h3 class="text-yellow-300 font-bold text_1g mb-3">Quick Links</h3>
             <ul class="space-y-2 text-sm">
                 <li>
-                    <RouterLink to="/Home" class="hover:text-yellow-300">Home</RouterLink><br>
+                    <RouterLink to="/" class="hover:text-yellow-300">Home</RouterLink><br>
                 </li>
                 <li>
                     <RouterLink to="/About" class="hover:text-yellow-300">About</RouterLink><br>
@@ -33,18 +33,19 @@ import { RouterLink } from 'vue-router';
             <h3 class="text-yellow-300 font-bold text_1g mb-3">Destinations</h3>
             <ul class="space-y-2 text-sm">
             <li>
-                <RouterLink to="/kigali" class="hover:text-yellow-300">Kigali City</RouterLink>
+                <RouterLink to="/Northern" class="hover:text-yellow-300">Northern Province</RouterLink>
             </li><br>
             <li>
-                <RouterLink to="/eastern" class="hover:text-yellow-300">Eastern Province</RouterLink>
+                <RouterLink to="/Southern" class="hover:text-yellow-300">Southern Province</RouterLink>
             </li><br>
             <li>
-                <RouterLink to="/nothern" class="hover:text-yellow-300">Nothern Province</RouterLink>
+                <RouterLink to="/Western" class="hover:text-yellow-300">Western Province</RouterLink>
             </li><br>
             <li>
-                <RouterLink to="/southern" class="hover:text-yellow-300">Southern Province</RouterLink>
+                <RouterLink to="/Eastern" class="hover:text-yellow-300">Eastern Province</RouterLink>
             </li><br>
-            <li><RouterLink to="/western" class="hover:text-yellow-300">Western Province</RouterLink>
+            <li>
+                <RouterLink to="/Kigali" class="hover:text-yellow-300">Kigali City</RouterLink>
             </li><br>
         </ul>
         </div>

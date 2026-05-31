@@ -1,75 +1,40 @@
-<script setup>
-import { ref } from 'vue'
-
-const galleryOpen = ref(false)
-const destinationOpen = ref(false)
-
-</script>
 <template>
-  <nav class="bg-green-800 text-white shadow-lg">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-      <img src="../assets/images/rwandalogo.ico" alt="Logo" class="h-10 w-10">
+    <nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-bet">
+    <img src="../assets/images/rwandalogo.ico" alt="Logo" class="h-10 w-10"> 
+    <span class="text-xl font-bold"></span>
+
+
+    <ul class="flex gap-8 text-sm font-medium w-full justify-end">
+    <li><router-link to="/" class="hover:text-yellow-400">Home</router-link></li>
+    <li><router-link to="/about" class="hover:text-yellow-400">About</router-link></li>
+
+
+    <li class="relative group">
+    <a href="#" class="hover:text-yellow-300">Gallery<span></span></a>
+    <ul class="invisible group-hover:visible opacity-100 absolute bg-white text-green-900 rounded shadow w-48 top-full left-0 z-50">
+     <li><a href="/photos" class="block px-4 py-2 hover:bg-green-200 text-green-900">Photos</a></li>
+     <li><a href="/videos" class="block px-4 py-2 hover:bg-green-200 text-green-900">Videos</a></li>
+    </ul>
+</li>
+  <li class="relative group">
+    <a href="#" class="hover:text-yellow-300">Destination<span></span></a>
+<ul class="invisible group-hover:visible opacity-100 absolute bg-white text-green-900 rounded shadow w-48 top-full left-0 z-50">
+        
+        <li><a href="/northern"class="block px-4 py-2 hover:bg-green-200 text-green-900">Northern Province</a></li>
+     <li><a href="/southern" class="block px-4 py-2 hover:bg-green-200 text-green-900">Southern Province</a></li>
+     <li><a href="/western" class="block px-4 py-2 hover:bg-green-200 text-green-900">Western Province</a></li>   
+     <li><a href="/eastern" class="block px-4 py-2 hover:bg-green-200 text-green-900">Eastern Province</a></li>
+     <li><a href="/kigali" class="block px-4 py-2 hover:bg-green-200 text-green-900">Kigali City</a></li>
+    </ul>
+</li>
+
+    <li><router-link to="/services" class="hover:text-yellow-400">Services</router-link></li>
+    <li><router-link to="/contact" class="hover:text-yellow-400">Contact</router-link></li>
+
+    
     
 
-      <ul class="flex gap-6 text-lg">
-        <li>
-          <a href="/" class="hover:text-yellow-300">
-            Home
-          </a>
-        </li>
+    </ul>
 
-        <li>
-          <a href="/about" class="hover:text-yellow-300">
-            About
-          </a>
-        </li>
-
-        <li>
-          <a href="/services" class="hover:text-yellow-300">
-            Services
-          </a>
-        </li>
-
-         <li class="relative group">
-          <a href="#" class="hover:text-yellow-300"> Gallery <span>▽</span></a>
-           <ul class="absolute left-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-1g opacity-0 group-hover:opacity-100 transition-opacity">
-            <li><a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-7OO">Photos</a> </li>
-            <li><a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-7OO">Videos</a></li>
-          </ul>
-
-        </li>
-
-         <li class="relative group">
-          <a href="#" class="hover:text-yellow-300"> Destination <span>▽</span></a>
-          <ul class="absolute right-0 mt-2 w-40 bg-green-800 text-white rounded-md shadow-1g opacity-0 group-hover:opacity-100 transition-opacity">
-            <li>
-            <a href="/kigali" class="block px-4 py-2 hover:bg-green-7OO">Kigali City</a>
-            </li>
-            <li>
-              <a href="/eastern" class="block px-4 py-2 hover:bg-green-7OO">Eastern Province</a> 
-            </li>
-            <li>
-              <a href="/nothern" class="block px-4 py-2 hover:bg-green-7OO">Nothern Province</a>
-            </li>
-            <li>
-              <a href="southern" class="block px-4 py-2 hover:bg-green-7OO">Southern Province</a>
-              </li>
-            <li>
-              <a href="/western" class="block px-4 py-2 hover:bg-green-7OO">Western Province</a>
-            </li>
-          </ul>
-
-        </li>
-
-        
-
-        <li>
-          <a href="/contact" class="hover:text-yellow-300">
-            Contact
-          </a>
-        </li>
-      </ul>
-
-    </div>
-  </nav>
-</template>
+</nav>
+    </template>
