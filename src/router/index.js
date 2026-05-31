@@ -3,7 +3,7 @@ import { createWebHistory, createRouter } from 'vue-router'
 import About from '../views/about.vue';
 import Services from '../views/Services.vue';
 import Contact from '../views/Contact.vue';
-import Home from '../views/home.vue';
+import Home from '../views/Home.vue';
 import Northern from '../views/nothern.vue';
 import Southern from '../views/southern.vue';
 import Western from '../views/western.vue';
