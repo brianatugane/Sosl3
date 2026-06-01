@@ -3,12 +3,11 @@
 
     <div class="text-center mb-12">
       <h1 class="text-5xl font-bold text-green-700">
-        Explore Rwanda
+        {{ $i18n.t('photos.title') }}
       </h1>
 
       <p class="text-gray-600 mt-4 text-lg">
-        Discover the beauty of Rwanda through stunning destinations,
-        wildlife, culture, and nature.
+        {{ $i18n.t('photos.desc') }}
       </p>
     </div>
 
@@ -19,10 +18,10 @@
         <img src="/src/assets/convention.jpg" class="w-full h-64 object-cover">
         <div class="p-5">
           <h2 class="text-2xl font-bold text-green-700">
-            Kigali Convention Centre
+            {{ $i18n.t('photos.card1.title') }}
           </h2>
           <p class="text-gray-600 mt-2">
-            Rwanda's iconic landmark and conference destination.
+            {{ $i18n.t('photos.card1.desc') }}
           </p>
         </div>
       </div>
@@ -32,10 +31,10 @@
         <img src="/src/assets/gorilla.jpg" class="w-full h-64 object-cover">
         <div class="p-5">
           <h2 class="text-2xl font-bold text-green-700">
-            Mountain Gorillas
+            {{ $i18n.t('photos.card2.title') }}
           </h2>
           <p class="text-gray-600 mt-2">
-            Experience unforgettable gorilla trekking adventures.
+            {{ $i18n.t('photos.card2.desc') }}
           </p>
         </div>
       </div>
@@ -45,10 +44,10 @@
         <img src="/src/assets/kivu.jpg" class="w-full h-64 object-cover">
         <div class="p-5">
           <h2 class="text-2xl font-bold text-green-700">
-            Lake Kivu
+            {{ $i18n.t('photos.card3.title') }}
           </h2>
           <p class="text-gray-600 mt-2">
-            One of Africa's most beautiful lakes with amazing views.
+            {{ $i18n.t('photos.card3.desc') }}
           </p>
         </div>
       </div>
@@ -58,10 +57,10 @@
         <img src="/src/assets/inema.jpg" class="w-full h-64 object-cover">
         <div class="p-5">
           <h2 class="text-2xl font-bold text-green-700">
-            Inema Arts Center
+            {{ $i18n.t('photos.card4.title') }}
           </h2>
           <p class="text-gray-600 mt-2">
-            A vibrant hub for Rwandan art and creativity.
+            {{ $i18n.t('photos.card4.desc') }}
           </p>
         </div>
       </div>
@@ -71,10 +70,10 @@
         <img src="/src/assets/memorial.jpg" class="w-full h-64 object-cover">
         <div class="p-5">
           <h2 class="text-2xl font-bold text-green-700">
-            Genocide Memorial
+            {{ $i18n.t('photos.card5.title') }}
           </h2>
           <p class="text-gray-600 mt-2">
-            A place of remembrance and learning.
+            {{ $i18n.t('photos.card5.desc') }}
           </p>
         </div>
       </div>
@@ -84,10 +83,10 @@
         <img src="/src/assets/nyungwe.png" class="w-full h-64 object-cover">
         <div class="p-5">
           <h2 class="text-2xl font-bold text-green-700">
-            Nyungwe Forest
+            {{ $i18n.t('photos.card6.title') }}
           </h2>
           <p class="text-gray-600 mt-2">
-            Famous for canopy walks and rich biodiversity.
+            {{ $i18n.t('photos.card6.desc') }}
           </p>
         </div>
       </div>

@@ -46,6 +46,25 @@ export const en = {
     innovationCard: 'Innovation',
     innovationDesc: 'Rwanda is becoming a leading technology and innovation hub in Africa.'
   },
+  photos: {
+    title: 'Explore Rwanda',
+    desc: 'Discover the beauty of Rwanda through stunning destinations, wildlife, culture, and nature.',
+    card1: { title: 'Kigali Convention Centre', desc: "Rwanda's iconic landmark and conference destination." },
+    card2: { title: 'Mountain Gorillas', desc: 'Experience unforgettable gorilla trekking adventures.' },
+    card3: { title: 'Lake Kivu', desc: "One of Africa's most beautiful lakes with amazing views." },
+    card4: { title: 'Inema Arts Center', desc: 'A vibrant hub for Rwandan art and creativity.' },
+    card5: { title: 'Genocide Memorial', desc: 'A place of remembrance and learning.' },
+    card6: { title: 'Nyungwe Forest', desc: 'Famous for canopy walks and rich biodiversity.' }
+  },
+  videos: {
+    title: 'Visit Rwanda Videos',
+    card1: { title: 'Rwanda Map' },
+    card2: { title: 'Akagera' },
+    card3: { title: 'Nyanza' },
+    card4: { title: 'Nyungwe Forest' },
+    card5: { title: 'Lake Kivu' },
+    card6: { title: 'Volcanoes National Park' }
+  },
   services: {
     title: 'Our Services',
     gorillaTitle: '🦍 Gorilla Trekking',

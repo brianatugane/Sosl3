@@ -45,6 +45,25 @@ export const rw = {
     innovationCard: 'Ubwenge',
     innovationDesc: 'Rwanda igenda mu mbere mu mateka n\'ubwenge mu Afrika.'
   },
+  photos: {
+    title: 'Sura u Rwanda',
+    desc: 'Menya ubwiza bw’u Rwanda binyuze mu hantu, inyamaswa, umuco, n’urusobe rw’ibidukikije.',
+    card1: { title: 'Kigali Convention Centre', desc: 'Ikimenyetso cy’igihugu kandi ahakorera inama.' },
+    card2: { title: 'Ingagi z’Imisozi', desc: 'Bona ubunararibonye budasanzwe bwo kuzenguruka ingagi.' },
+    card3: { title: 'Kiyaga Kivu', desc: 'Kimwe mu biyaga byiza muri Afurika bifite aho urebera heza.' },
+    card4: { title: 'Inema Arts Center', desc: 'Ikibanza cyuzuyemo ubuhanzi n’ikoranabuhanga mu Rwanda.' },
+    card5: { title: 'Urwibutso rwa Jenoside', desc: 'Ahantu ho kwibuka no kwiga amateka.' },
+    card6: { title: 'Ishyamba rya Nyungwe', desc: 'Rizwi kubera urugendo rwo mu kirere n’ubwiza bw’imikorere yaryo.' }
+  },
+  videos: {
+    title: 'Amavidiyo y’u Rwanda',
+    card1: { title: 'Ikarita y’u Rwanda' },
+    card2: { title: 'Akagera' },
+    card3: { title: 'Nyanza' },
+    card4: { title: 'Ishyamba rya Nyungwe' },
+    card5: { title: 'Kiyaga Kivu' },
+    card6: { title: 'Pariki y’Igihugu ya Volcanoes' }
+  },
   services: {
     title: 'Serivisi Zacu',
     gorillaTitle: '🦍 Kurora Ingagi',

@@ -46,6 +46,25 @@ export const sw = {
     innovationCard: 'Ubunifu',
     innovationDesc: 'Rwanda inakuwa kitovu cha teknolojia na ubunifu barani Afrika.'
   },
+  photos: {
+    title: 'Gundua Rwanda',
+    desc: 'Gundua uzuri wa Rwanda kupitia maeneo, wanyama, utamaduni, na asili.',
+    card1: { title: 'Kigali Convention Centre', desc: 'Alama maarufu ya Rwanda na mahali pa mikutano.' },
+    card2: { title: 'Kunguru wa Mlima (Gorillas)', desc: 'Pata uzoefu usiosahaulika wa kukagua gorilla.' },
+    card3: { title: 'Ziwa Kivu', desc: 'Moja ya maziwa mazuri Afrika yenye mandhari ya kushangaza.' },
+    card4: { title: 'Inema Arts Center', desc: 'Kitovu cha sanaa na ubunifu wa Rwanda.' },
+    card5: { title: 'Kumbukumbu ya Mauaji', desc: 'Mahali pa kukumbuka na kujifunza.' },
+    card6: { title: 'Msitu wa Nyungwe', desc: 'Maarufu kwa matembezi ya juu na bioanuwai tajiri.' }
+  },
+  videos: {
+    title: 'Video za Rwanda',
+    card1: { title: 'Ramani ya Rwanda' },
+    card2: { title: 'Akagera' },
+    card3: { title: 'Nyanza' },
+    card4: { title: 'Msitu wa Nyungwe' },
+    card5: { title: 'Ziwa Kivu' },
+    card6: { title: 'Hifadhi ya Taifa ya Volcanos' }
+  },
   services: {
     title: 'Huduma Zetu',
     gorillaTitle: '🦍 Kutembea na Gorilla',

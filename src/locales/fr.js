@@ -46,6 +46,25 @@ export const fr = {
     innovationCard: 'Innovation',
     innovationDesc: 'Le Rwanda devient un pôle de technologie et d’innovation en Afrique.'
   },
+  photos: {
+    title: 'Découvrez le Rwanda',
+    desc: 'Découvrez la beauté du Rwanda à travers des destinations, la faune, la culture et la nature.',
+    card1: { title: 'Centre de conférences de Kigali', desc: 'Point de repère emblématique et lieu de conférences.' },
+    card2: { title: 'Gorilles de montagne', desc: 'Vivez des aventures inoubliables de trekking avec les gorilles.' },
+    card3: { title: 'Lac Kivu', desc: 'Un des plus beaux lacs d’Afrique avec des vues magnifiques.' },
+    card4: { title: 'Inema Arts Center', desc: 'Un centre dynamique pour l’art et la créativité rwandaise.' },
+    card5: { title: 'Mémorial du génocide', desc: 'Un lieu de mémoire et d’apprentissage.' },
+    card6: { title: 'Forêt de Nyungwe', desc: 'Célèbre pour ses promenades en canopée et sa riche biodiversité.' }
+  },
+  videos: {
+    title: 'Vidéos du Rwanda',
+    card1: { title: 'Carte du Rwanda' },
+    card2: { title: 'Akagera' },
+    card3: { title: 'Nyanza' },
+    card4: { title: 'Forêt de Nyungwe' },
+    card5: { title: 'Lac Kivu' },
+    card6: { title: 'Parc national des Volcans' }
+  },
   services: {
     title: 'Nos Services',
     gorillaTitle: '🦍 Trekking des gorilles',
