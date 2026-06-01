@@ -127,26 +127,26 @@
     <!-- FAQ Section -->
     <div class="bg-green-50 py-16 px-6">
       <h2 class="text-4xl font-bold text-center text-green-700 mb-10">
-        Frequently Asked Questions
+        {{ $i18n.t('contact.faqTitle') }}
       </h2>
 
       <div class="max-w-4xl mx-auto space-y-4">
 
         <div class="bg-white p-5 rounded-xl shadow">
           <h3 class="font-bold text-green-700">
-            Do you organize group tours?
+            {{ $i18n.t('contact.faq1Question') }}
           </h3>
           <p class="text-gray-600 mt-2">
-            Yes, we organize tours for individuals, families, and groups.
+            {{ $i18n.t('contact.faq1Answer') }}
           </p>
         </div>
 
         <div class="bg-white p-5 rounded-xl shadow">
           <h3 class="font-bold text-green-700">
-            Can I book online?
+            {{ $i18n.t('contact.faq2Question') }}
           </h3>
           <p class="text-gray-600 mt-2">
-            Yes, bookings can be made through our website.
+            {{ $i18n.t('contact.faq2Answer') }}
           </p>
         </div>
 

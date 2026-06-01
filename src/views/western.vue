@@ -8,15 +8,15 @@
     >
       <div class="bg-black/60 p-10 rounded-3xl text-center max-w-3xl">
         <h1 class="text-7xl font-extrabold text-white mb-4">
-          Western Province
+          {{ $i18n.t('provinces.western.title') }}
         </h1>
 
         <p class="text-xl text-gray-200">
-          Discover Western Province's vibrant province known for agricalture and breathtaking views.
+          {{ $i18n.t('provinces.western.description') }}
         </p>
 
         <button class="mt-6 bg-green-600 text-white px-8 py-4 rounded-xl hover:bg-green-700">
-          Explore Western Province
+          {{ $i18n.t('provinces.western.exploreBtn') }}
         </button>
       </div>
     </div>
@@ -27,22 +27,22 @@
 
         <div>
           <h2 class="text-5xl font-bold">1.2M+</h2>
-          <p>Population</p>
+          <p>{{ $i18n.t('provinces.common.population') }}</p>
         </div>
 
         <div>
           <h2 class="text-5xl font-bold">30+</h2>
-          <p>Tourist Sites</p>
+          <p>{{ $i18n.t('provinces.common.touristSites') }}</p>
         </div>
 
         <div>
           <h2 class="text-5xl font-bold">100+</h2>
-          <p>Hotels</p>
+          <p>{{ $i18n.t('provinces.common.hotels') }}</p>
         </div>
 
         <div>
           <h2 class="text-5xl font-bold">365</h2>
-          <p>Days to Explore</p>
+          <p>{{ $i18n.t('provinces.common.daysToExplore') }}</p>
         </div>
 
       </div>
@@ -52,7 +52,7 @@
     <div class="py-20 px-8">
 
       <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
-        Top Attractions
+        {{ $i18n.t('provinces.common.topAttractions') }}
       </h2>
 
       <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -64,10 +64,10 @@
           >
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Lake Kivu
+              {{ $i18n.t('provinces.western.attraction1') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Experience the beauty and tranquility of Lake Kivu.
+              {{ $i18n.t('provinces.western.attraction1Desc') }}
             </p>
           </div>
         </div>
@@ -79,10 +79,10 @@
           >
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Nyungwe Forest
+              {{ $i18n.t('provinces.western.attraction2') }}
             </h3>
             <p class="text-gray-600 mt-3">
-                Explore the rich biodiversity of Nyungwe Forest National Park.
+              {{ $i18n.t('provinces.western.attraction2Desc') }}
             </p>
           </div>
         </div>
@@ -94,10 +94,10 @@
           >
           <div class="p-6">
             <h3 class="text-2xl font-bold text-green-700">
-              Gisenyi Beach
+              {{ $i18n.t('provinces.western.attraction3') }}
             </h3>
             <p class="text-gray-600 mt-3">
-              Relax and enjoy the scenic beauty of Gisenyi Beach.
+              {{ $i18n.t('provinces.western.attraction3Desc') }}
             </p>
           </div>
         </div>
@@ -111,29 +111,29 @@
       <div class="max-w-6xl mx-auto">
 
         <h2 class="text-5xl font-bold text-center text-green-700 mb-12">
-          Why Visit Western Province?
+          {{ $i18n.t('provinces.western.whyVisitTitle') }}
         </h2>
 
         <div class="grid md:grid-cols-3 gap-8">
 
           <div class="bg-white p-8 rounded-2xl shadow">
-            <h3 class="text-2xl font-bold mb-3">🌍 Natural Beauty</h3>
+            <h3 class="text-2xl font-bold mb-3">🌍 {{ $i18n.t('provinces.western.card1') }}</h3>
             <p class="text-gray-600">
-              Experience the stunning landscapes and diverse ecosystems.
+              {{ $i18n.t('provinces.western.card1Desc') }}
             </p>
           </div>
 
           <div class="bg-white p-8 rounded-2xl shadow">
-            <h3 class="text-2xl font-bold mb-3">🎨 Rich Culture</h3>
+            <h3 class="text-2xl font-bold mb-3">🎨 {{ $i18n.t('provinces.common.richCulture') }}</h3>
             <p class="text-gray-600">
-              Museums, art galleries, and cultural experiences.
+              {{ $i18n.t('provinces.common.culturalExperience') }}
             </p>
           </div>
 
           <div class="bg-white p-8 rounded-2xl shadow">
-            <h3 class="text-2xl font-bold mb-3">🍽️ Great Food</h3>
+            <h3 class="text-2xl font-bold mb-3">🍽️ {{ $i18n.t('provinces.common.greatFood') }}</h3>
             <p class="text-gray-600">
-              Enjoy local and international cuisine.
+              {{ $i18n.t('provinces.common.foodExperience') }}
             </p>
           </div>
 
@@ -147,15 +147,15 @@
     <div class="bg-green-700 text-white text-center py-20">
 
       <h2 class="text-5xl font-bold mb-5">
-        Ready to Visit Western Province?
+        {{ $i18n.t('provinces.western.ctaTitle') }}
       </h2>
 
       <p class="text-xl mb-8">
-        Begin your unforgettable journey today.
+        {{ $i18n.t('provinces.common.beginJourney') }}
       </p>
 
       <button class="bg-white text-green-700 px-10 py-4 rounded-xl font-bold">
-        Book Your Tour
+        {{ $i18n.t('provinces.western.ctaBtn') }}
       </button>
 
     </div>

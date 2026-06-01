@@ -1,10 +1,14 @@
 import { reactive } from 'vue'
 import { en } from './locales/en'
 import { rw } from './locales/rw'
+import { fr } from './locales/fr'
+import { sw } from './locales/sw'
 
 const messages = {
   en,
-  rw
+  rw,
+  fr,
+  sw
 }
 
 export const i18n = reactive({
@@ -34,7 +38,9 @@ export const useI18n = () => {
   }
 
   return {
-    locale: i18n.locale,
+    get locale() {
+      return i18n.locale
+    },
     setLocale,
     t
   }

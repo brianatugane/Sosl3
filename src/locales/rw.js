@@ -37,7 +37,13 @@ export const rw = {
     hills: 'Ibibanza Biryinyu',
     nationalParks: 'Ibyapa by\'igihugu',
     kigaliTitle: 'Umujyi wa Kigali',
-    kigaliDesc: 'Ni umujyi w\'Afrika w\'ibihe byiza cyane n\'ubwenge.'
+    kigaliDesc: 'Ni umujyi w\'Afrika w\'ibihe byiza cyane n\'ubwenge.',
+    tourismCard: 'Ubutemerereze',
+    tourismDesc: 'Reba ibyapa nka Volcanoes, Akagera, n\'Amazi ya Kivu, hamwe n\'ingagi z\'inzira.',
+    cultureCard: 'Umuco',
+    cultureDesc: 'Ubona imiryango, ibiryo byimbere, n\'umuco w\'u Rwanda.',
+    innovationCard: 'Ubwenge',
+    innovationDesc: 'Rwanda igenda mu mbere mu mateka n\'ubwenge mu Afrika.'
   },
   services: {
     title: 'Serivisi Zacu',
@@ -56,7 +62,10 @@ export const rw = {
     toursCompleted: 'Amasomo Yapimwe',
     happyVisitors: 'Abayenzi Bahimba',
     years: 'Imyaka y\'Ubwenge',
-    locations: 'Ibihe'
+    locations: 'Ibihe',
+    ctaHeading: 'Ushaka Kurora Hejuru?',
+    ctaDesc: 'Iyandike ubwayo ubu kandi ubona Rwanda mu buryo bwigenga.',
+    bookNow: 'Iyandika'
   },
   contact: {
     title: 'Twandikire',
@@ -78,5 +87,108 @@ export const rw = {
     subjectPlaceholder: 'Ingingo',
     message: 'Ubutumwa',
     messagePlaceholder: 'Andika ubutumwa bwawe',
-    send: 'Ohereza'  }
+    send: 'Ohereza',
+    faqTitle: 'Ibibazo Bisanzwe',
+    faq1Question: 'Mwakoreshaje gusimbuza amasomo y\'itsinda?',
+    faq1Answer: 'Yego, turakora amasomo y\'abantu ku mahoro, itsinda, n\'itsinda y\'abantu.',
+    faq2Question: 'Ninshuti kuyandika mu internet?',
+    faq2Answer: 'Yego, nyo gushyiraho ibyo wifuza ku website yacu.'
+  },
+  provinces: {
+    common: {
+      topAttractions: 'Aho Hagakururwa',
+      population: 'Abaturage',
+      touristSites: 'Ahantu nyaburanga',
+      hotels: 'Amahoteli',
+      daysToExplore: 'Iminsi yo Gushakisha',
+      whyVisit: 'Kuki gusura',
+      readyToVisit: 'Witeguye gusura',
+      richCulture: 'Umuco ukomeye',
+      culturalExperience: 'Inyigisho z\'umuco, ingoro z\'ubugeni, n\'ibikorwa by\'umuco.',
+      greatFood: 'Ibiryo byiza',
+      foodExperience: 'Jya ku biryo by\'aha n\'iby\'isi yose.',
+      beginJourney: 'Tangira urugendo rwawe rutazibagirana uyu munsi.',
+      bookTour: 'Itahe urugendo rwawe'
+    },
+    northern: {
+      title: 'Amajyaruguru',
+      description: 'Menya Amajyaruguru y\'u Rwanda, akomeye mu buhinzi kandi uzwi n\'ibyiza by\'igishanga n\'amazi.',
+      exploreBtn: 'Sura Amajyaruguru',
+      whyVisitTitle: 'Kuki gusura Amajyaruguru?',
+      ctaTitle: 'Witeguye gusura Amajyaruguru?',
+      ctaBtn: 'Tegura Urugendo',
+      attraction1: 'Pariki y\'Igihugu ya Volcanoes',
+      attraction1Desc: 'Sura ingagi zasigaye n\'ibishanga byiza bya Congo.',
+      attraction2: 'Umusozi Bisoke',
+      attraction2Desc: 'Umusozi ukungahaye ku kirere kiza n\'ikiyaga cy\'ubutaka.',
+      attraction3: 'Musanze Caves',
+      attraction3Desc: 'Sura imiyobo izwi ku isi yose ikurura ba mukerarugendo.',
+      card1: 'Imiyobo Yihariye',
+      card1Desc: 'Izwi kubera imiyobo yayo y\'igishanga hamwe n\'ubuhanga bwo kuyisura.'
+    },
+    southern: {
+      title: 'Amajyepfo',
+      description: 'Menya Amajyepfo y\'u Rwanda, ahantu h\'ubuhinzi n\'ibikorwa by\'ubuhanga bya kera.',
+      exploreBtn: 'Sura Amajyepfo',
+      whyVisitTitle: 'Kuki gusura Amajyepfo?',
+      ctaTitle: 'Witeguye gusura Amajyepfo?',
+      ctaBtn: 'Tegura Urugendo',
+      attraction1: 'Muze wa Palais y\'Abami',
+      attraction1Desc: 'Menya amateka y\'u Rwanda n\'ubumwe bw\'igihugu.',
+      attraction2: 'Muze y\'Abantu',
+      attraction2Desc: 'Sangiza umuco n\'amateka y\'u Rwanda.',
+      attraction3: 'Icyubahiro cya Kibeho',
+      attraction3Desc: 'Sura ahantu hatagatifu wige iby\'akamaro kawo.',
+      card1: 'Umujyi Usukuye',
+      card1Desc: 'Uzwi nk\'umujyi usukuye cyane muri Afurika.'
+    },
+    eastern: {
+      title: 'Uburasirazuba',
+      description: 'Menya Uburasirazuba bw\'u Rwanda, buzwi n\'ibiyaga byiza, ibishanga, n\'umutuzo.',
+      exploreBtn: 'Sura Uburasirazuba',
+      whyVisitTitle: 'Kuki gusura Uburasirazuba?',
+      ctaTitle: 'Witeguye gusura Uburasirazuba?',
+      ctaBtn: 'Tegura Urugendo',
+      attraction1: 'Pariki y\'Igihugu ya Akagera',
+      attraction1Desc: 'Menya inyamaswa nyinshi n\'ibinyabuzima bitandukanye.',
+      attraction2: 'Kiyaga Muhazi',
+      attraction2Desc: 'Itegure ibikorwa byo ku mazi no kuruhukira ku kiyaga.',
+      attraction3: 'Rusumo Falls',
+      attraction3Desc: 'Reba amazi ashashagirana n\'ubwiza karemano.',
+      card1: 'Amahoro Nyayo',
+      card1Desc: 'Uzwi kubera ibice byiza kandi byiza by\'imituzo.'
+    },
+    western: {
+      title: 'Uburengerazuba',
+      description: 'Menya Uburengerazuba bw\'u Rwanda, buzwi n\'ibirunga, ibiyaga, n\'ishyamba rikize.',
+      exploreBtn: 'Sura Uburengerazuba',
+      whyVisitTitle: 'Kuki gusura Uburengerazuba?',
+      ctaTitle: 'Witeguye gusura Uburengerazuba?',
+      ctaBtn: 'Tegura Urugendo',
+      attraction1: 'Kiyaga Kivu',
+      attraction1Desc: 'Wiyumvemo ubwiza n\'umutuzo w\'iki kiyaga.',
+      attraction2: 'ishyamba rya Nyungwe',
+      attraction2Desc: 'Sura ubuzima bwinshi butangaje mu ishyamba rya Nyungwe.',
+      attraction3: 'Ikirimba cya Gisenyi',
+      attraction3Desc: 'Ruhukira ku nkengero z\'ikiyaga cya Gisenyi.',
+      card1: 'Ubwiza Nyarwanda',
+      card1Desc: 'Menya imiterere y\'ubwiza n\'ubwoko bwinshi bw\'ibidukikije.'
+    },
+    kigali: {
+      title: 'Umujyi wa Kigali',
+      description: 'Menya umujyi wa Kigali, umutima w\'u Rwanda, uzwi n\'isuku, umuco, n\'ubuvumbuzi.',
+      exploreBtn: 'Sura Kigali',
+      whyVisitTitle: 'Kuki gusura Kigali?',
+      ctaTitle: 'Witeguye gusura Kigali?',
+      ctaBtn: 'Tegura Urugendo',
+      attraction1: 'Inzu Ndangamurage ya Jenoside ya Kigali',
+      attraction1Desc: 'Menya amateka y\'u Rwanda n\'ubumwe bw\'igihugu.',
+      attraction2: 'Ikigo cy\'Inama',
+      attraction2Desc: 'Ni kimwe mu bihugu by\'ibimenyetso bya Kigali.',
+      attraction3: 'Inema Arts Center',
+      attraction3Desc: 'Wiyumvemo ubuhanzi n\'igishushanyo cy\'u Rwanda.',
+      card1: 'Umujyi Usukuye',
+      card1Desc: 'Uzwi nk\'umujyi usukuye cyane muri Afurika.'
+    }
+  }
 }

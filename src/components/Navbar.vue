@@ -54,6 +54,22 @@
           Kinyarwanda
         </button>
       </li>
+      <li>
+        <button 
+          @click="changeLanguage('fr')" 
+          :class="['w-full text-left block px-4 py-2 hover:bg-green-200', { 'bg-green-300': $i18n.locale === 'fr' }]"
+        >
+          Français
+        </button>
+      </li>
+      <li>
+        <button 
+          @click="changeLanguage('sw')" 
+          :class="['w-full text-left block px-4 py-2 hover:bg-green-200', { 'bg-green-300': $i18n.locale === 'sw' }]"
+        >
+          Kiswahili
+        </button>
+      </li>
     </ul>
 </li>
     

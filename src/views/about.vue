@@ -102,12 +102,11 @@
           </div>
 
           <h2 class="text-2xl font-bold text-green-700 mb-4">
-            Tourism
+            {{ $i18n.t('about.tourismCard') }}
           </h2>
 
           <p class="text-gray-600 leading-7">
-            Explore Volcanoes National Park, Akagera, Lake Kivu,
-            and the famous mountain gorillas.
+            {{ $i18n.t('about.tourismDesc') }}
           </p>
         </div>
 
@@ -122,12 +121,11 @@
           </div>
 
           <h2 class="text-2xl font-bold text-green-700 mb-4">
-            Culture
+                    {{ $i18n.t('about.cultureCard') }}
           </h2>
 
           <p class="text-gray-600 leading-7">
-            Experience traditional dances, local food,
-            art galleries, and Rwandan traditions.
+            {{ $i18n.t('about.cultureDesc') }}
           </p>
         </div>
 
@@ -142,11 +140,11 @@
           </div>
 
           <h2 class="text-2xl font-bold text-green-700 mb-4">
-            Innovation
+            {{ $i18n.t('about.innovationCard') }}
           </h2>
 
           <p class="text-gray-600 leading-7">
-            Rwanda is becoming a leading technology and innovation hub in Africa.
+            {{ $i18n.t('about.innovationDesc') }}
           </p>
         </div>
 

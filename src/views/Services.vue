@@ -112,15 +112,15 @@
     <!-- CTA -->
     <section class="py-20 text-center px-6">
       <h2 class="text-5xl font-bold text-green-700 mb-5">
-        Ready For Your Next Adventure?
+        {{ $i18n.t('services.ctaHeading') }}
       </h2>
 
       <p class="text-gray-600 text-lg mb-8">
-        Book your trip today and experience Rwanda like never before.
+        {{ $i18n.t('services.ctaDesc') }}
       </p>
 
       <button class="bg-green-600 text-white px-10 py-4 rounded-xl text-lg hover:bg-green-700">
-        Book Now
+        {{ $i18n.t('services.bookNow') }}
       </button>
     </section>
 

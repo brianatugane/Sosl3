@@ -38,7 +38,13 @@ export const en = {
     hills: 'Beautiful Hills',
     nationalParks: 'National Parks',
     kigaliTitle: 'Kigali City',
-    kigaliDesc: 'One of Africa\'s cleanest and smartest cities with modern innovation.'
+    kigaliDesc: 'One of Africa\'s cleanest and smartest cities with modern innovation.',
+    tourismCard: 'Tourism',
+    tourismDesc: 'Explore Volcanoes National Park, Akagera, Lake Kivu, and the famous mountain gorillas.',
+    cultureCard: 'Culture',
+    cultureDesc: 'Experience traditional dances, local food, art galleries, and Rwandan traditions.',
+    innovationCard: 'Innovation',
+    innovationDesc: 'Rwanda is becoming a leading technology and innovation hub in Africa.'
   },
   services: {
     title: 'Our Services',
@@ -57,7 +63,10 @@ export const en = {
     toursCompleted: 'Tours Completed',
     happyVisitors: 'Happy Visitors',
     years: 'Years of Experience',
-    locations: 'Locations'
+    locations: 'Locations',
+    ctaHeading: 'Ready For Your Next Adventure?',
+    ctaDesc: 'Book your trip today and experience Rwanda like never before.',
+    bookNow: 'Book Now'
   },
   contact: {
     title: 'Contact Us',
@@ -79,6 +88,108 @@ export const en = {
     subjectPlaceholder: 'Subject',
     message: 'Message',
     messagePlaceholder: 'Enter your message',
-    send: 'Send'
+    send: 'Send',
+    faqTitle: 'Frequently Asked Questions',
+    faq1Question: 'Do you organize group tours?',
+    faq1Answer: 'Yes, we organize tours for individuals, families, and groups.',
+    faq2Question: 'Can I book online?',
+    faq2Answer: 'Yes, bookings can be made through our website.'
+  },
+  provinces: {
+    common: {
+      topAttractions: 'Top Attractions',
+      population: 'Population',
+      touristSites: 'Tourist Sites',
+      hotels: 'Hotels',
+      daysToExplore: 'Days to Explore',
+      whyVisit: 'Why Visit',
+      readyToVisit: 'Ready to Visit',
+      richCulture: 'Rich Culture',
+      culturalExperience: 'Museums, art galleries, and cultural experiences.',
+      greatFood: 'Great Food',
+      foodExperience: 'Enjoy local and international cuisine.',
+      beginJourney: 'Begin your unforgettable journey today.',
+      bookTour: 'Book Your Tour'
+    },
+    northern: {
+      title: 'Northern Province',
+      description: 'Discover Northern Province\'s vibrant province known for agriculture and breathtaking views.',
+      exploreBtn: 'Explore Northern Province',
+      whyVisitTitle: 'Why Visit Northern Province?',
+      ctaTitle: 'Ready to Visit Northern Province?',
+      ctaBtn: 'Book Your Trip',
+      attraction1: 'Volcanoes National Park',
+      attraction1Desc: 'Visit the home of the endangered mountain gorillas and enjoy stunning volcanic landscapes.',
+      attraction2: 'Mount Bisoke',
+      attraction2Desc: 'The iconic volcano with a crater lake, offering a challenging hike and breathtaking views.',
+      attraction3: 'Musanze Caves',
+      attraction3Desc: 'Explore these fascinating caves formed by volcanic activity.',
+      card1: 'Best Caves',
+      card1Desc: 'Known for its stunning caves, including the Musanze Caves, offering a unique underground adventure.'
+    },
+    southern: {
+      title: 'Southern Province',
+      description: 'Discover Southern Province\'s vibrant province known for agriculture and breathtaking views.',
+      exploreBtn: 'Explore Southern Province',
+      whyVisitTitle: 'Why Visit Southern Province?',
+      ctaTitle: 'Ready to Visit Southern Province?',
+      ctaBtn: 'Book Your Trip',
+      attraction1: 'Kings Palace Museum',
+      attraction1Desc: 'Learn about Rwanda\'s history and journey toward unity.',
+      attraction2: 'Ethnographical Museum',
+      attraction2Desc: 'Experience Rwanda\'s rich cultural heritage and traditions.',
+      attraction3: 'Kibeho Shrine',
+      attraction3Desc: 'Visit this sacred site and learn about its significance.',
+      card1: 'Clean City',
+      card1Desc: 'Known as one of Africa\'s cleanest cities.'
+    },
+    eastern: {
+      title: 'Eastern Province',
+      description: 'Discover Eastern Province\'s vibrant province known for agriculture and breathtaking views.',
+      exploreBtn: 'Explore Eastern Province',
+      whyVisitTitle: 'Why Visit Eastern Province?',
+      ctaTitle: 'Ready to Visit Eastern Province?',
+      ctaBtn: 'Book Your Trip',
+      attraction1: 'Akagera National Park',
+      attraction1Desc: 'Experience Rwanda\'s diverse wildlife and stunning landscapes.',
+      attraction2: 'Lake Muhazi',
+      attraction2Desc: 'Enjoy water activities and lakeside relaxation at Lake Muhazi.',
+      attraction3: 'Rusumo Falls',
+      attraction3Desc: 'Experience Rwanda\'s stunning Rusumo Falls, a hidden gem of natural beauty.',
+      card1: 'A peaceful haven',
+      card1Desc: 'Known for its serene landscapes and tranquil atmosphere.'
+    },
+    western: {
+      title: 'Western Province',
+      description: 'Discover Western Province\'s vibrant province known for agriculture and breathtaking views.',
+      exploreBtn: 'Explore Western Province',
+      whyVisitTitle: 'Why Visit Western Province?',
+      ctaTitle: 'Ready to Visit Western Province?',
+      ctaBtn: 'Book Your Trip',
+      attraction1: 'Lake Kivu',
+      attraction1Desc: 'Experience the beauty and tranquility of Lake Kivu.',
+      attraction2: 'Nyungwe Forest',
+      attraction2Desc: 'Explore the rich biodiversity of Nyungwe Forest National Park.',
+      attraction3: 'Gisenyi Beach',
+      attraction3Desc: 'Relax and enjoy the scenic beauty of Gisenyi Beach.',
+      card1: 'Natural Beauty',
+      card1Desc: 'Experience the stunning landscapes and diverse ecosystems.'
+    },
+    kigali: {
+      title: 'Kigali City',
+      description: 'Discover Rwanda\'s vibrant capital city known for its cleanliness, culture, innovation, and breathtaking views.',
+      exploreBtn: 'Explore Kigali',
+      whyVisitTitle: 'Why Visit Kigali?',
+      ctaTitle: 'Ready to Visit Kigali?',
+      ctaBtn: 'Book Your Trip',
+      attraction1: 'Kigali Genocide Memorial',
+      attraction1Desc: 'Learn about Rwanda\'s history and journey toward unity.',
+      attraction2: 'Convention Centre',
+      attraction2Desc: 'One of Kigali\'s most iconic landmarks.',
+      attraction3: 'Inema Arts Center',
+      attraction3Desc: 'Experience Rwanda\'s growing creative industry.',
+      card1: 'Clean City',
+      card1Desc: 'Known as one of Africa\'s cleanest cities.'
+    }
   }
 }
