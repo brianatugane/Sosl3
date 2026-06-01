@@ -8,6 +8,7 @@ import { RouterLink } from 'vue-router';
         <div>
             <h3 class="text-yellow-300 font-bold text_1g mb-3">Tembera U Rwanda</h3>
             <p class="text-sm text-green-200">Discover the beauty of the Land of a thousand hills</p>
+            <span>TUGANE BRIANA</span>
         </div>
         <!--Quick Link-->
         <div>
