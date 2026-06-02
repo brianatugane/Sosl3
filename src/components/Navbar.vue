@@ -30,6 +30,7 @@
 
     <li><router-link to="/services" class="hover:text-yellow-400">{{ $i18n.t('nav.services') }}</router-link></li>
     <li><router-link to="/contact" class="hover:text-yellow-400">{{ $i18n.t('nav.contact') }}</router-link></li>
+    <li><router-link to="/login" class="hover:text-yellow-400">{{ $i18n.t('nav.login') }}</router-link></li>
 
     <!-- Language Switcher -->
     <li class="relative">

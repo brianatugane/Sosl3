@@ -4,6 +4,8 @@ import About from '../views/about.vue';
 import Services from '../views/Services.vue';
 import Contact from '../views/Contact.vue';
 import Home from '../views/Home.vue';
+import Login from '../views/login.vue';
+import Register from '../views/register.vue';
 import Northern from '../views/nothern.vue';
 import Southern from '../views/southern.vue';
 import Western from '../views/western.vue';
@@ -36,8 +38,12 @@ const routes = [
    component: Contact
    },
    {
-  path: '/northern',
-  component: Northern
+    path: '/login',
+    component: Login
+   },
+   {
+    path: '/register',
+    component: Register
    },
    {
   path: '/southern',
@@ -63,6 +69,7 @@ const routes = [
   path: '/videos',
   component: Videos
   },
+
 ];
 
 const router = createRouter({
